@@ -50,7 +50,6 @@ import two.one.contactfetch.web.RetrofitSettings;
 
 @SuppressLint("MissingPermission")
 public class MainActivity extends AppCompatActivity {
-    private ContactViewModel contactViewModel;
     private RecyclerView recyclerView;
     private ContactAdapter contactAdapter;
     private CountryCodePicker countryCodePicker;
